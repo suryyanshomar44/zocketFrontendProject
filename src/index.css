@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a5a5a5;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 1rem;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #eaeaea;
+  height: 1px;
+}
+
+.color-1 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.root {
+  min-width: 100%;
+  min-height: 100vh !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #f6f9ff;
+}
+
+.root_main {
+  padding: 10vh 2rem 5vh 3rem;
+  min-height: 100vh !important;
+}
+
+
+.sidebar {
+  background-color: #001738;
+  color: #fff;
+  min-height: 100% !important;
+  width: 100% !important;
+  z-index: 2;
+}
+
+.sidebar > div > p {
+  font-size: 10px;
+}
+
+.sidebar > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.home_logo:hover,
+.campaign_logo:hover,
+.product_logo:hover,
+.customers_logo:hover,
+.active {
+  background-color: #02214b;
+  border-left: solid;
+  border-width: 8px;
+  border-color: #1977f3;
+  transition: 0.5s;
+}
+
+.zocket_logo {
+  padding: 50px 0px !important;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 92%;
+  margin: 0 0 0 -60px;
+  background-color: #fff;
+  z-index: 1;
+  border: 0px;
+}
+
+
+.stepper_active {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0b1a33;
+}
+
+.stepper_inactive {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #abb6c5;
+}
+
+.stepper_block {
+  margin: 2rem 0.5rem;
+}
+
+.stepper_svg_a {
+  width: 60px;
+  height: 60px;
+  background: #f29a2e;
+  border-radius: 50%;
+}
+
+.stepper_svg_ina {
+  width: 60px;
+  height: 60px;
+  background: #abb5c2;
+  border-radius: 50%;
+}
+
+.button-1 {
+  background: #0f6eff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 14px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-2 {
+  background-color: #f0f0f0;
+  color: #999999;
+}
+
+.button-1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.campaign_table {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.table_main {
+  margin-top: 2rem;
+}
+
+.search_main {
+  border: solid;
+  border-radius: 10px;
+  border-color: #e9e9e9;
+  max-width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search_input {
+  border: none;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.table_filter_header {
+  color: rgba(0, 0, 0, 0.5);
+  font: 16px;
+}
+
+.table_filter_select {
+  padding: 10px 2px;
+  border-radius: 10px;
+  border: 1.5px solid #e9e9e9;
+  background-color: #fff;
+  text-align: center;
+}
+
+.step_1_main {
+  background: #ffffff;
+  border: 1px solid #dae6ff;
+  border-radius: 10px;
+  margin-right: 2vw;
+  padding: 2rem;
+}
+
+.step_1_card {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: rgba(11, 26, 51, 0.5);
+  cursor: pointer;
+  min-width: 30%;
+  min-height: 100% !important;
+}
+
+.step_1_card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date_input,
+.location_input,
+.slider_input {
+  min-width: 100%;
+  padding: 10px;
+}
+
+.location_info {
+  margin-top: 3rem;
+}
+
+.set_location {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.conslusion > div {
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.conslusion > div:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.conslusion_active {
+  border: solid;
+  border-color: #0f6eff;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
